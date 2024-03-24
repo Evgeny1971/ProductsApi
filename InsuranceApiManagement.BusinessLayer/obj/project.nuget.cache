@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "69alyvpOYnlGF4gub5sYccHfRv7CMzFDYywZzcRvJtBdccZdYJ1qolHgJxQSZBGEQF6ua28yVc1OhuVZFjpsRw==",
+  "dgSpecHash": "EB4cwNoce/h7HS6lkTAZUEdPImY8fbTHDmbviF8O8/DmEVr4hlz4bkg/IxEyftcdwowGLwoH1X/lG7uNEPJWrA==",
   "success": true,
-  "projectFilePath": "/home/evgeny/Public/InsuranceApi/InsuranceApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj",
+  "projectFilePath": "/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "/home/evgeny/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/evgeny/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InsuranceApiManagement.DataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ece431070cf7c89da541a56e16196da98334cea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5ba3f5d17dc58648dcb057fd3ccb0c226b51fad")]
 [assembly: System.Reflection.AssemblyProductAttribute("InsuranceApiManagement.DataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InsuranceApiManagement.DataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

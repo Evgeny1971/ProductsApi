@@ -23,7 +23,7 @@ namespace InsuranceApiManagement.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> CreateInsurancePolicy([FromBody] InsurancePolicy model)
         {
-            var policyExists = await _InsuranceApiService.GetInsurancePolicyById(model.PolicyId);
+            var policyExists = await _InsuranceApiService.GetInsurancePolicyById(model.ID);
             if (policyExists != null)
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Insurance Policy already exists!" });
             var result = await _InsuranceApiService.CreateInsurancePolicy(model);
@@ -43,7 +43,7 @@ namespace InsuranceApiManagement.Controllers
             if (policy == null)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response
-                { Status = "Error", Message = $"Insurance Policy With Id = {model.PolicyId} cannot be found" });
+                { Status = "Error", Message = $"Insurance Policy With Id = {model.ID} cannot be found" });
             }
             else
             {
@@ -92,5 +92,7 @@ namespace InsuranceApiManagement.Controllers
         {
             return _InsuranceApiService.GetAllInsurancePolicies();
         }
+
+        
     }
 }

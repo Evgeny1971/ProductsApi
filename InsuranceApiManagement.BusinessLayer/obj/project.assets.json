@@ -5797,11 +5797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/evgeny/Public/InsuranceApi/InsuranceApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj",
+      "projectUniqueName": "/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj",
       "projectName": "InsuranceApiManagement.BusinessLayer",
-      "projectPath": "/home/evgeny/Public/InsuranceApi/InsuranceApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj",
+      "projectPath": "/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj",
       "packagesPath": "/home/evgeny/.nuget/packages/",
-      "outputPath": "/home/evgeny/Public/InsuranceApi/InsuranceApi/InsuranceApiManagement.BusinessLayer/obj/",
+      "outputPath": "/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.BusinessLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/evgeny/.nuget/NuGet/NuGet.Config"
@@ -5816,11 +5816,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/home/evgeny/Public/InsuranceApi/InsuranceApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj": {
-              "projectPath": "/home/evgeny/Public/InsuranceApi/InsuranceApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj"
+            "/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj": {
+              "projectPath": "/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj"
             },
-            "/home/evgeny/Public/InsuranceApi/InsuranceApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj": {
-              "projectPath": "/home/evgeny/Public/InsuranceApi/InsuranceApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj"
+            "/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj": {
+              "projectPath": "/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj"
             }
           }
         }
