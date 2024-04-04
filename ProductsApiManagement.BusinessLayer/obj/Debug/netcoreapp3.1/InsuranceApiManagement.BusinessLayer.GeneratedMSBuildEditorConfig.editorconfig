@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = InsuranceApiManagement.BusinessLayer
+build_property.ProjectDir = /home/evgeny/Public/ProductsApi/InsuranceApiManagement.BusinessLayer/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

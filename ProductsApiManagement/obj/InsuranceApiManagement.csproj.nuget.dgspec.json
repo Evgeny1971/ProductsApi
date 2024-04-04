@@ -1,0 +1,392 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/evgeny/Public/ProductsApi/InsuranceApiManagement/InsuranceApiManagement.csproj": {}
+  },
+  "projects": {
+    "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj",
+        "projectName": "InsuranceApiManagement.BusinessLayer",
+        "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj",
+        "packagesPath": "/home/evgeny/.nuget/packages/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.BusinessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/evgeny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj"
+              },
+              "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj",
+        "projectName": "InsuranceApiManagement.DataLayer",
+        "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj",
+        "packagesPath": "/home/evgeny/.nuget/packages/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/evgeny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj",
+        "projectName": "InsuranceApiManagement.Entities",
+        "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj",
+        "packagesPath": "/home/evgeny/.nuget/packages/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/evgeny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/evgeny/Public/ProductsApi/InsuranceApiManagement/InsuranceApiManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement/InsuranceApiManagement.csproj",
+        "projectName": "InsuranceApiManagement",
+        "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement/InsuranceApiManagement.csproj",
+        "packagesPath": "/home/evgeny/.nuget/packages/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/evgeny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.BusinessLayer/InsuranceApiManagement.BusinessLayer.csproj"
+              },
+              "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj"
+              },
+              "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
