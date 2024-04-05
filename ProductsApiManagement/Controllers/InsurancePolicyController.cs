@@ -1,32 +1,32 @@
-﻿using InsuranceApiManagement.BusinessLayer.Interfaces;
-using InsuranceApiManagement.BusinessLayer.ViewModels;
-using InsuranceApiManagement.Entities;
+﻿using ProductsApiManagement.BusinessLayer.Interfaces;
+using ProductsApiManagement.BusinessLayer.ViewModels;
+using ProductsApiManagement.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace InsuranceApiManagement.Controllers
+namespace ProductsApiManagement.Controllers
 {
     [ApiController]
-    public class InsurancePolicyController : ControllerBase
+    public class ShopProductController : ControllerBase
     {
-        private readonly IInsuranceApiService _InsuranceApiService;
-        public InsurancePolicyController(IInsuranceApiService InsuranceApiService)
+        private readonly IProductsApiService _ProductsApiService;
+        public ShopProductController(IProductsApiService ProductsApiService)
         {
-            _InsuranceApiService = InsuranceApiService;
+            _ProductsApiService = ProductsApiService;
         }
 
         [HttpPost]
         [Route("create-policy")]
         [AllowAnonymous]
-        public async Task<IActionResult> CreateInsurancePolicy([FromBody] InsurancePolicy model)
+        public async Task<IActionResult> CreateShopProduct([FromBody] ShopProduct model)
         {
-            var policyExists = await _InsuranceApiService.GetInsurancePolicyById(model.ID);
+            var policyExists = await _ProductsApiService.GetShopProductById(model.ID);
             if (policyExists != null)
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Insurance Policy already exists!" });
-            var result = await _InsuranceApiService.CreateInsurancePolicy(model);
+            var result = await _ProductsApiService.CreateShopProduct(model);
             if (result == null)
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Insurance Policy creation failed! Please check details and try again." });
 
@@ -37,9 +37,9 @@ namespace InsuranceApiManagement.Controllers
 
         [HttpPut]
         [Route("update-policy")]
-        public async Task<IActionResult> UpdateInsurancePolicy([FromBody] InsurancePolicyViewModel model)
+        public async Task<IActionResult> UpdateShopProduct([FromBody] ShopProductViewModel model)
         {
-            var policy = await _InsuranceApiService.UpdateInsurancePolicy(model);
+            var policy = await _ProductsApiService.UpdateShopProduct(model);
             if (policy == null)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response
@@ -47,16 +47,16 @@ namespace InsuranceApiManagement.Controllers
             }
             else
             {
-                var result = await _InsuranceApiService.UpdateInsurancePolicy(model);
+                var result = await _ProductsApiService.UpdateShopProduct(model);
                 return Ok(new Response { Status = "Success", Message = "Insurance Policy updated successfully!" });
             }
         }
 
         [HttpDelete]
         [Route("delete-policy")]
-        public async Task<IActionResult> DeleteInsurancePolicy(long id)
+        public async Task<IActionResult> DeleteShopProduct(long id)
         {
-            var policy = await _InsuranceApiService.GetInsurancePolicyById(id);
+            var policy = await _ProductsApiService.GetShopProductById(id);
             if (policy == null)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response
@@ -64,7 +64,7 @@ namespace InsuranceApiManagement.Controllers
             }
             else
             {
-                var result = await _InsuranceApiService.DeleteInsurancePolicyById(id);
+                var result = await _ProductsApiService.DeleteShopProductById(id);
                 return Ok(new Response { Status = "Success", Message = "Insurance policy deleted successfully!" });
             }
         }
@@ -72,9 +72,9 @@ namespace InsuranceApiManagement.Controllers
 
         [HttpGet]
         [Route("get-policy-by-id")]
-        public async Task<IActionResult> GetInsurancePolicyById(long id)
+        public async Task<IActionResult> GetShopProductById(long id)
         {
-            var policy = await _InsuranceApiService.GetInsurancePolicyById(id);
+            var policy = await _ProductsApiService.GetShopProductById(id);
             if (policy == null)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response
@@ -88,9 +88,9 @@ namespace InsuranceApiManagement.Controllers
 
         [HttpGet]
         [Route("get-all-policies")]
-        public async Task<IEnumerable<InsurancePolicy>> GetAllPolicies()
+        public async Task<IEnumerable<ShopProduct>> GetAllPolicies()
         {
-            return _InsuranceApiService.GetAllInsurancePolicies();
+            return _ProductsApiService.GetAllInsurancePolicies();
         }
 
         

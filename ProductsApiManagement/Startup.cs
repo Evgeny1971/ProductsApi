@@ -1,7 +1,7 @@
-using InsuranceApiManagement.BusinessLayer.Interfaces;
-using InsuranceApiManagement.BusinessLayer.Services;
-using InsuranceApiManagement.BusinessLayer.Services.Repository;
-using InsuranceApiManagement.DataLayer;
+using ProductsApiManagement.BusinessLayer.Interfaces;
+using ProductsApiManagement.BusinessLayer.Services;
+using ProductsApiManagement.BusinessLayer.Services.Repository;
+using ProductsApiManagement.DataLayer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InsuranceApiManagement
+namespace ProductsApiManagement
 {
     public class Startup
     {
@@ -30,14 +30,14 @@ namespace InsuranceApiManagement
 
             public void ConfigureServices(IServiceCollection services)
             {
-                services.AddDbContext<InsuranceDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
+                services.AddDbContext<ProductsDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
 
                 services.AddSwaggerGen();
                 services.AddControllers();
                 services.AddHttpClient();
                 services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-                services.AddScoped<IInsuranceApiRepository, InsuranceApiRepository>();
-                services.AddScoped<IInsuranceApiService, InsuranceApiService>();
+                services.AddScoped<IProductsApiRepository, ProductsApiRepository>();
+                services.AddScoped<IProductsApiService, ProductsApiService>();
                 services.AddCors(options =>
                 {
                     options.AddDefaultPolicy(builder =>

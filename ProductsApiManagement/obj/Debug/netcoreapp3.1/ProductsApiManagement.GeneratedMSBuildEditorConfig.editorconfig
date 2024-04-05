@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = ProductsApiManagement
+build_property.ProjectDir = /home/evgeny/Public/ProductsApi/ProductsApiManagement/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

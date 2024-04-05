@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "InsuranceApiManagement": {
+    "ProductsApiManagement": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
