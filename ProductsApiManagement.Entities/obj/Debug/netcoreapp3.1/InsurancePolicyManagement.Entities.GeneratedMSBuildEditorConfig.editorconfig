@@ -1,5 +1,5 @@
 is_global = true
-build_property.RootNamespace = InsurancePolicyManagement.Entities
-build_property.ProjectDir = /home/evgeny/Public/InsuranceApi/InsuranceApi/InsurancePolicyManagement.Entities/
+build_property.RootNamespace = ShopProductManagement.Entities
+build_property.ProjectDir = /home/evgeny/Public/ProductsApi/ProductsApi/ShopProductManagement.Entities/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,17 @@
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.csproj.AssemblyReference.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.AssemblyInfoInputs.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.AssemblyInfo.cs
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.csproj.CoreCompileInputs.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.sourcelink.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/bin/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.deps.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/bin/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.runtimeconfig.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/bin/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.runtimeconfig.dev.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/bin/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.dll
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/bin/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.pdb
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/bin/Debug/netcoreapp3.1/ProductsApiManagement.Entities.dll
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/bin/Debug/netcoreapp3.1/ProductsApiManagement.Entities.pdb
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.csproj.CopyComplete
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.dll
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.pdb
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/Debug/netcoreapp3.1/ProductsApiManagement.DataLayer.genruntimeconfig.cache

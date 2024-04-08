@@ -1,0 +1,14 @@
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp3.1/ProductsApiManagement.Entities.deps.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp3.1/ProductsApiManagement.Entities.runtimeconfig.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp3.1/ProductsApiManagement.Entities.runtimeconfig.dev.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp3.1/ProductsApiManagement.Entities.dll
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp3.1/ProductsApiManagement.Entities.pdb
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.csproj.AssemblyReference.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.AssemblyInfoInputs.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.AssemblyInfo.cs
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.csproj.CoreCompileInputs.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.sourcelink.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.dll
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.pdb
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp3.1/ProductsApiManagement.Entities.genruntimeconfig.cache

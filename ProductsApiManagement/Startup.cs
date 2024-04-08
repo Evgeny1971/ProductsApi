@@ -35,9 +35,17 @@ namespace ProductsApiManagement
                 services.AddSwaggerGen();
                 services.AddControllers();
                 services.AddHttpClient();
+
                 services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+                // Configure connection string from appsettings.json
+                string connectionString = Configuration.GetConnectionString("ConnStr");
+                // Register ProductsDbAdoAccessor with dependency injection
+                services.AddScoped<ProductsDbAdoAccessor>(provider =>
+                new ProductsDbAdoAccessor(connectionString));
+
                 services.AddScoped<IProductsApiRepository, ProductsApiRepository>();
                 services.AddScoped<IProductsApiService, ProductsApiService>();
+
                 services.AddCors(options =>
                 {
                     options.AddDefaultPolicy(builder =>

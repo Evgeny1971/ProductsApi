@@ -1,5 +1,5 @@
 is_global = true
-build_property.RootNamespace = InsurancePolicyManagement.BusinessLayer
-build_property.ProjectDir = /home/evgeny/Public/InsuranceApi/InsuranceApi/InsurancePolicyManagement.BusinessLayer/
+build_property.RootNamespace = ShopProductManagement.BusinessLayer
+build_property.ProjectDir = /home/evgeny/Public/ProductsApi/ProductsApi/ShopProductManagement.BusinessLayer/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

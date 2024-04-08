@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj": {}
+    "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj": {}
   },
   "projects": {
-    "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj": {
+    "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj",
-        "projectName": "InsuranceApiManagement.DataLayer",
-        "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/InsuranceApiManagement.DataLayer.csproj",
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj",
+        "projectName": "ProductsApiManagement.DataLayer",
+        "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj",
         "packagesPath": "/home/evgeny/.nuget/packages/",
-        "outputPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.DataLayer/obj/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/evgeny/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj": {
-                "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj"
+              "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj"
               }
             }
           }
@@ -97,14 +97,14 @@
         }
       }
     },
-    "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj": {
+    "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj",
-        "projectName": "InsuranceApiManagement.Entities",
-        "projectPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/InsuranceApiManagement.Entities.csproj",
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj",
+        "projectName": "ProductsApiManagement.Entities",
+        "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj",
         "packagesPath": "/home/evgeny/.nuget/packages/",
-        "outputPath": "/home/evgeny/Public/ProductsApi/InsuranceApiManagement.Entities/obj/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/evgeny/.nuget/NuGet/NuGet.Config"

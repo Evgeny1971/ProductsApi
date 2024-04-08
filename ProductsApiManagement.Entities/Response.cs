@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace InsuranceApiManagement.Entities
+namespace ProductsApiManagement.Entities
 {
     public class Response
     {

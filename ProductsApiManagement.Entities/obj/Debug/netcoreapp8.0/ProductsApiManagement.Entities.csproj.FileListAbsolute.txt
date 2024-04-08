@@ -1,0 +1,15 @@
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp8.0/ProductsApiManagement.Entities.deps.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp8.0/ProductsApiManagement.Entities.runtimeconfig.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp8.0/ProductsApiManagement.Entities.dll
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/bin/Debug/netcoreapp8.0/ProductsApiManagement.Entities.pdb
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.csproj.AssemblyReference.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.AssemblyInfoInputs.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.AssemblyInfo.cs
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.csproj.CoreCompileInputs.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.sourcelink.json
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.dll
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/refint/ProductsApiManagement.Entities.dll
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.pdb
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ProductsApiManagement.Entities.genruntimeconfig.cache
+/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/Debug/netcoreapp8.0/ref/ProductsApiManagement.Entities.dll

@@ -1,0 +1,260 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/evgeny/Public/ProductsApi/ProductsApiManagement.BusinessLayer/ProductsApiManagement.BusinessLayer.csproj": {}
+  },
+  "projects": {
+    "/home/evgeny/Public/ProductsApi/ProductsApiManagement.BusinessLayer/ProductsApiManagement.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.BusinessLayer/ProductsApiManagement.BusinessLayer.csproj",
+        "projectName": "ProductsApiManagement.BusinessLayer",
+        "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.BusinessLayer/ProductsApiManagement.BusinessLayer.csproj",
+        "packagesPath": "/home/evgeny/.nuget/packages/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.BusinessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/evgeny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "netcoreapp8.0",
+            "projectReferences": {
+              "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj"
+              },
+              "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "netcoreapp8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj",
+        "projectName": "ProductsApiManagement.DataLayer",
+        "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/ProductsApiManagement.DataLayer.csproj",
+        "packagesPath": "/home/evgeny/.nuget/packages/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.DataLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/evgeny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "netcoreapp8.0",
+            "projectReferences": {
+              "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj": {
+                "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "netcoreapp8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj",
+        "projectName": "ProductsApiManagement.Entities",
+        "projectPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/ProductsApiManagement.Entities.csproj",
+        "packagesPath": "/home/evgeny/.nuget/packages/",
+        "outputPath": "/home/evgeny/Public/ProductsApi/ProductsApiManagement.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/evgeny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "netcoreapp8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "netcoreapp8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
