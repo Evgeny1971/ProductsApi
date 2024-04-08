@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProductsApiManagement.DataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e01bb4494d4426db3d5efc4369fc798c59bed143")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ea810c139ff26a0930c12d213f2682d536297a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductsApiManagement.DataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductsApiManagement.DataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
